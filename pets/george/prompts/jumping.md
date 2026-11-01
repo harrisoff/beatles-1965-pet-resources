@@ -1,0 +1,18 @@
+Create one horizontal animation strip for ChatGPT pet `george-harrison`, state `jumping`.
+
+Use the attached canonical base for identity. Use the attached layout guide only for slot count, spacing, centering, and padding; do not draw the guide.
+
+Output exactly 5 full-body frames in one left-to-right row on flat pure magenta #FF00FF. Treat the row as 5 invisible equal-width slots: one centered complete pose per slot, evenly spaced, with no overlap, clipping, empty slots, labels, or borders.
+
+Identity: same pet in every frame: Use the supplied Beatles 1965 George Harrison references. Preserve narrow angular face, long straight pointed nose, heavy brows, dark mop hair and pointed nape tufts, slightly stooped slim body, blue jacket and matching blue trousers, dark navy turtleneck, black shoes. Flat cel animation, no guitar or added props. Preserve original mature cartoon proportions, not chibi. Screen-direction looks use head pitch/yaw with torso and feet anchored.. Preserve silhouette, face, proportions, markings, palette, material, style, and props.
+Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `flat-vector`: Flat vector-style mascot with simple geometric forms, crisp color areas, clean outline, and minimal shading.
+Animation continuity: keep apparent pet scale and baseline stable within the row unless the state itself intentionally changes vertical position, such as `jumping`. Move the pose within the slot instead of redrawing the pet larger or smaller frame to frame.
+
+State action: Hover jump loop: anticipation, lift, airborne peak, descent, and settle through body height.
+
+State requirements:
+- Show the jump through pose and vertical body position only: anticipation, lift, airborne peak, descent, settle.
+- Do not draw ground shadows, contact shadows, drop shadows, oval shadows, landing marks, dust, smears, bounce pads, or motion marks under the pet.
+- Keep the background outside the pet perfectly flat chroma key with no darker key-colored patches.
+
+Clean extraction: crisp opaque edges, safe padding, no scenery, text, guide marks, checkerboard, shadows, glows, motion blur, speed lines, dust, detached effects, stray pixels, or chroma-key colors inside the pet.

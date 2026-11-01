@@ -22,3 +22,8 @@ Thumbs.db
 /frame-candidates/
 /generated/ringo-reference-sheet-v3.png
 /generated/ringo-reference-sheet-v4.png
+
+# Local pet production work and account records
+/pets/*/work/
+/pets/*/created-pet.json
+/pets/previews/.render-*/

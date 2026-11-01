@@ -1,0 +1,75 @@
+{
+  "name": "Paul McCartney",
+  "description": "Paul McCartney in the 1965 Beatles cartoon style, with expressive eyes and a blue suit.",
+  "style": "flat-vector",
+  "character_notes": "Paul McCartney 1965 Beatles cartoon. Softer compact rounded face, SHORT small nose, large expressive eyes, arched eyebrows, black mop hair. Blue suit jacket and matching long blue trousers, blue collared shirt and narrow navy tie, black pointed shoes. Preserve original mature slender cartoon body proportions. No bass or new props. Flat cel-cartoon colors and crisp black outlines, exact source identity. Head pitch/yaw for looks with anchored frontal torso and feet.",
+  "source_reference_revision": "592b1bd459f4181e1eba347d7b30bf972f0dcb33",
+  "identity_references": [
+    "generated/paul-reference-sheet-v3.png",
+    "generated/paul-head-angles-v1.png"
+  ],
+  "visual_generation": "built-in imagegen; each state grounded in canonical identity and source references",
+  "prompts": {
+    "base": {
+      "file": "pets/paul/prompts/base.md",
+      "provenance": "selected-generation-prompt"
+    },
+    "idle": {
+      "file": "pets/paul/prompts/idle.md",
+      "provenance": "selected-generation-prompt"
+    },
+    "running-right": {
+      "file": "pets/paul/prompts/running-right.md",
+      "provenance": "selected-generation-prompt"
+    },
+    "waving": {
+      "file": "pets/paul/prompts/waving.md",
+      "provenance": "selected-generation-prompt"
+    },
+    "jumping": {
+      "file": "pets/paul/prompts/jumping.md",
+      "provenance": "selected-generation-prompt"
+    },
+    "failed": {
+      "file": "pets/paul/prompts/failed.md",
+      "provenance": "selected-generation-prompt"
+    },
+    "waiting": {
+      "file": "pets/paul/prompts/waiting.md",
+      "provenance": "selected-generation-prompt"
+    },
+    "running": {
+      "file": "pets/paul/prompts/running.md",
+      "provenance": "selected-generation-prompt"
+    },
+    "review": {
+      "file": "pets/paul/prompts/review.md",
+      "provenance": "selected-generation-prompt"
+    },
+    "look-cardinals": {
+      "file": "pets/paul/prompts/look-cardinals.md",
+      "provenance": "selected-generation-prompt"
+    },
+    "look-row-9": {
+      "file": "pets/paul/prompts/look-row-9.md",
+      "provenance": "selected-generation-prompt"
+    },
+    "look-row-10": {
+      "file": "pets/paul/prompts/look-row-10.md",
+      "provenance": "selected-generation-prompt"
+    }
+  },
+  "running_left": {
+    "method": "framewise horizontal mirror of approved running-right frames; temporal order preserved",
+    "reason": "no handed props or asymmetric costume markings in selected design"
+  },
+  "workflow_notes": [
+    "Generate canonical base first from both identity references.",
+    "Generate each action independently; extract complete pose components with one shared scale per row.",
+    "Reserve jump headroom and retain airborne vertical displacement.",
+    "Approve standard-row contact sheet, then four cardinal anchors, then coherent look row9, then row10.",
+    "Use look-mechanics.md and cardinal anchors for direction meaning; prior look row supplies scale and continuity.",
+    "Final spritesheet bytes are archived; raw strips and frame-level working files are not included.",
+    "Prompt files marked prepared-job-template are preparation templates, not an exact saved final tool call."
+  ]
+}

@@ -1,0 +1,1601 @@
+{
+  "schema_version": 1,
+  "note": "Final QA evidence recorded before upload. Local atlas paths normalized for this archive; sprite bytes and SHA256 are unchanged.",
+  "atlas_validation": {
+    "ok": true,
+    "file": "pets/john/spritesheet.png",
+    "encoded_bytes": 1590206,
+    "sha256": "3d119a1c9b3a5dacafe691b67a90efc3a5377fd01a75f9c262f954dd801ad766",
+    "format": "PNG",
+    "mode": "RGBA",
+    "columns": 8,
+    "rows": 11,
+    "sprite_version_number": 2,
+    "width": 1536,
+    "height": 2288,
+    "transparent_rgb_residue_pixels": 0,
+    "errors": [],
+    "warnings": [],
+    "cells": [
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 8238,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 8416,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 8300,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 8295,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 8407,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 8306,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 6,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 7,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 10156,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 8998,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 9312,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 9890,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 10107,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 9377,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 6,
+        "used": true,
+        "nontransparent_pixels": 8898,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 7,
+        "used": true,
+        "nontransparent_pixels": 9669,
+        "opaque_chroma_key_pixels": 1,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 10156,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 8998,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 9312,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 9890,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 10107,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 9377,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 6,
+        "used": true,
+        "nontransparent_pixels": 8898,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 7,
+        "used": true,
+        "nontransparent_pixels": 9669,
+        "opaque_chroma_key_pixels": 1,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 8169,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 8493,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 8501,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 8164,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 4,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 5,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 6,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 7,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 9433,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 8353,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 8461,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 8279,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 9269,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 5,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 6,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 7,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 8698,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 8467,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 8283,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 7784,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 7241,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 8229,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 6,
+        "used": true,
+        "nontransparent_pixels": 8621,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 7,
+        "used": true,
+        "nontransparent_pixels": 8806,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 8142,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 8242,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 8263,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 8295,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 8089,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 8078,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 6,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 7,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 7620,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 7630,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 7615,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 7678,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 7642,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 7646,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 6,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 7,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 7906,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 7702,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 7862,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 7907,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 7852,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 7932,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 6,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 7,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 7922,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 7998,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 7947,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 7963,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 7940,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 7855,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 6,
+        "used": true,
+        "nontransparent_pixels": 7801,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 7,
+        "used": true,
+        "nontransparent_pixels": 7680,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 7722,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 7762,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 7812,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 7926,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 7839,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 7908,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 6,
+        "used": true,
+        "nontransparent_pixels": 7960,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 7,
+        "used": true,
+        "nontransparent_pixels": 7802,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      }
+    ]
+  },
+  "quality": {
+    "ok": true,
+    "atlas": "pets/john/spritesheet.png",
+    "encoded_bytes": 1590206,
+    "sha256": "3d119a1c9b3a5dacafe691b67a90efc3a5377fd01a75f9c262f954dd801ad766",
+    "jump": {
+      "idle_baseline": 202,
+      "jump_baselines": [
+        202,
+        197,
+        188,
+        194,
+        202
+      ],
+      "airborne_lift_pixels": 14,
+      "landing_delta_pixels": 0
+    },
+    "look_registration": {
+      "neutral_center_x": 96.0,
+      "look_centers_x": [
+        95.5,
+        95.5,
+        95.5,
+        95.5,
+        95.5,
+        95.5,
+        95.5,
+        95.5,
+        96.0,
+        96.0,
+        96.0,
+        96.0,
+        95.5,
+        95.0,
+        96.0,
+        95.0
+      ],
+      "look_widths": [
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        72,
+        72,
+        72,
+        72,
+        71,
+        72,
+        72,
+        72
+      ],
+      "maximum_center_drift_pixels": 1.0,
+      "maximum_width_ratio": 1.0140845070422535
+    },
+    "errors": [],
+    "warnings": [
+      "look direction 157.5 accepted with a reviewed warning",
+      "look direction 337.5 accepted with a reviewed warning",
+      "000 has transparent interior hole rows (y=200)",
+      "022.5 has transparent interior hole rows (y=200)",
+      "045 has transparent interior hole rows (y=200)",
+      "067.5 has transparent interior hole rows (y=200)",
+      "090 has transparent interior hole rows (y=200)",
+      "112.5 has transparent interior hole rows (y=200)",
+      "135 has transparent interior hole rows (y=200)",
+      "157.5 has transparent interior hole rows (y=200)",
+      "180 has transparent interior hole rows (y=200)",
+      "202.5 has transparent interior hole rows (y=200)",
+      "225 has transparent interior hole rows (y=200)",
+      "247.5 has transparent interior hole rows (y=200)",
+      "270 has transparent interior hole rows (y=200)",
+      "292.5 has transparent interior hole rows (y=200)",
+      "315 has transparent interior hole rows (y=200)",
+      "337.5 has transparent interior hole rows (y=200)",
+      "157.5->180 diff is a local outlier (1916 pixels vs neighbor average 892)"
+    ]
+  },
+  "mcp_preflight": {
+    "valid": true,
+    "file_size_bytes": 1590206,
+    "mime_type": "image/png",
+    "width": 1536,
+    "height": 2288,
+    "sprite_version": 2,
+    "cell_width": 192,
+    "cell_height": 208,
+    "frames_per_row": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "errors": []
+  },
+  "direction_semantics": {
+    "directions": {
+      "000": {
+        "expected": "up",
+        "observed": "up using physical skull pitch/yaw",
+        "verdict": "pass",
+        "evidence": "Frontal head pitches back: nose and pupils aim toward top, chin lifts and underside of jaw becomes visible. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes."
+      },
+      "022.5": {
+        "expected": "up-right",
+        "observed": "up-right using physical skull pitch/yaw",
+        "verdict": "pass",
+        "evidence": "Head yaws screen-right with near/far cheek asymmetry; nose projects right of facial center and chin/pupils aim up. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes."
+      },
+      "045": {
+        "expected": "up-right",
+        "observed": "up-right using physical skull pitch/yaw",
+        "verdict": "pass",
+        "evidence": "Right-projecting nose and eye aim establish right axis; head pitch raises chin and gaze above horizontal. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes."
+      },
+      "067.5": {
+        "expected": "up-right",
+        "observed": "up-right using physical skull pitch/yaw",
+        "verdict": "pass",
+        "evidence": "Head is mostly rightward with nose tip right of skull center; chin stays slightly raised and eyes aim above horizon. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes."
+      },
+      "090": {
+        "expected": "right",
+        "observed": "right using physical skull pitch/yaw",
+        "verdict": "pass",
+        "evidence": "Nose projects toward right screen edge, face and pupils aim right; torso remains frontal. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes."
+      },
+      "112.5": {
+        "expected": "down-right",
+        "observed": "down-right using physical skull pitch/yaw",
+        "verdict": "pass",
+        "evidence": "Nose projects right with a small downward pitch: chin lowers from horizontal-right family and pupil aim drops. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes."
+      },
+      "135": {
+        "expected": "down-right",
+        "observed": "down-right using physical skull pitch/yaw",
+        "verdict": "pass",
+        "evidence": "Right-facing bowed face has nose tip pointing right and down, visible crown and lowered chin. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes."
+      },
+      "157.5": {
+        "expected": "down-right",
+        "observed": "down-right using physical skull pitch/yaw",
+        "verdict": "warning",
+        "evidence": "Bowed head shows hair crown, eyes/nose aim down toward shoulder/feet while a rightward nose offset remains. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes. Right yaw is stronger than target near-down spacing; down pitch is clear."
+      },
+      "180": {
+        "expected": "down",
+        "observed": "down using physical skull pitch/yaw",
+        "verdict": "pass",
+        "evidence": "Head bows frontally toward feet: crown visible, chin lowered, nose/pupils aim below ear level, face stays readable. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes."
+      },
+      "202.5": {
+        "expected": "down-left",
+        "observed": "down-left using physical skull pitch/yaw",
+        "verdict": "pass",
+        "evidence": "Bowed skull yaws left: nose is left of facial center and below eyes, chin tucked, crown visible. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes."
+      },
+      "225": {
+        "expected": "down-left",
+        "observed": "down-left using physical skull pitch/yaw",
+        "verdict": "pass",
+        "evidence": "Nose projects screen-left and downward; eye aim follows below the horizontal-left horizon. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes."
+      },
+      "247.5": {
+        "expected": "down-left",
+        "observed": "down-left using physical skull pitch/yaw",
+        "verdict": "pass",
+        "evidence": "Face yaws mostly left with nose beyond left cheek; a small downward pitch lowers nose/chin relative to left anchor. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes."
+      },
+      "270": {
+        "expected": "left",
+        "observed": "left using physical skull pitch/yaw",
+        "verdict": "pass",
+        "evidence": "Nose and original eyes aim screen-left; left-facing face surface is clear while blue torso and feet stay frontal. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes."
+      },
+      "292.5": {
+        "expected": "up-left",
+        "observed": "up-left using physical skull pitch/yaw",
+        "verdict": "pass",
+        "evidence": "Left-projecting nose and eye direction establish left axis; lifted chin and upward head pitch establish up. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes."
+      },
+      "315": {
+        "expected": "up-left",
+        "observed": "up-left using physical skull pitch/yaw",
+        "verdict": "pass",
+        "evidence": "Head yaws left and pitches back: nose/pupils aim upper-left, chin rises naturally, ears/hair follow skull. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes."
+      },
+      "337.5": {
+        "expected": "up-left",
+        "observed": "up-left using physical skull pitch/yaw",
+        "verdict": "warning",
+        "evidence": "Head remains visibly left-yawed with nose left of head center while raised chin/nose/pupils aim up-left; readable original face preserved. Identity landmarks retained: long hooked J nose, broad rounded U jaw and original almond eyes. Leftward yaw is subtle near-up but nose and cheek asymmetry still show it."
+      }
+    },
+    "reviewed_at_native_size": true,
+    "identity": "long hooked J nose, broad rounded U jaw and original almond eyes",
+    "loop_review": "Native labeled loop and both row boundaries reviewed. Same anchored torso/feet and practical head/body scale; no wrong quadrant, whole-body turntable, reversal, clipping, transparent holes or conspicuous geometry snap. Local pixel-difference outliers correspond to face projection changes, not visible registration defects."
+  },
+  "continuity": {
+    "ok": true,
+    "reviewRequired": true,
+    "medianDiffPixels": 892.0,
+    "warnings": [
+      "000 has transparent interior hole rows (y=200)",
+      "022.5 has transparent interior hole rows (y=200)",
+      "045 has transparent interior hole rows (y=200)",
+      "067.5 has transparent interior hole rows (y=200)",
+      "090 has transparent interior hole rows (y=200)",
+      "112.5 has transparent interior hole rows (y=200)",
+      "135 has transparent interior hole rows (y=200)",
+      "157.5 has transparent interior hole rows (y=200)",
+      "180 has transparent interior hole rows (y=200)",
+      "202.5 has transparent interior hole rows (y=200)",
+      "225 has transparent interior hole rows (y=200)",
+      "247.5 has transparent interior hole rows (y=200)",
+      "270 has transparent interior hole rows (y=200)",
+      "292.5 has transparent interior hole rows (y=200)",
+      "315 has transparent interior hole rows (y=200)",
+      "337.5 has transparent interior hole rows (y=200)",
+      "157.5->180 diff is a local outlier (1916 pixels vs neighbor average 892)"
+    ],
+    "alphaHoles": [
+      {
+        "direction": "000",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 33,
+            "spanPixels": 71
+          }
+        ]
+      },
+      {
+        "direction": "022.5",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 33,
+            "spanPixels": 71
+          }
+        ]
+      },
+      {
+        "direction": "045",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 33,
+            "spanPixels": 71
+          }
+        ]
+      },
+      {
+        "direction": "067.5",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 33,
+            "spanPixels": 71
+          }
+        ]
+      },
+      {
+        "direction": "090",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 33,
+            "spanPixels": 71
+          }
+        ]
+      },
+      {
+        "direction": "112.5",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 33,
+            "spanPixels": 69
+          }
+        ]
+      },
+      {
+        "direction": "135",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 33,
+            "spanPixels": 70
+          }
+        ]
+      },
+      {
+        "direction": "157.5",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 33,
+            "spanPixels": 70
+          }
+        ]
+      },
+      {
+        "direction": "180",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 34,
+            "spanPixels": 72
+          }
+        ]
+      },
+      {
+        "direction": "202.5",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 33,
+            "spanPixels": 72
+          }
+        ]
+      },
+      {
+        "direction": "225",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 34,
+            "spanPixels": 72
+          }
+        ]
+      },
+      {
+        "direction": "247.5",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 34,
+            "spanPixels": 72
+          }
+        ]
+      },
+      {
+        "direction": "270",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 33,
+            "spanPixels": 71
+          }
+        ]
+      },
+      {
+        "direction": "292.5",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 33,
+            "spanPixels": 72
+          }
+        ]
+      },
+      {
+        "direction": "315",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 34,
+            "spanPixels": 72
+          }
+        ]
+      },
+      {
+        "direction": "337.5",
+        "holes": [
+          {
+            "row": 200,
+            "transparentPixels": 33,
+            "spanPixels": 72
+          }
+        ]
+      }
+    ],
+    "pairs": [
+      {
+        "from": "000",
+        "to": "022.5",
+        "firstPixels": 7327,
+        "secondPixels": 7387,
+        "diffPixels": 814,
+        "centerDelta": 0.0,
+        "areaRatio": 1.00818889040535
+      },
+      {
+        "from": "022.5",
+        "to": "045",
+        "firstPixels": 7387,
+        "secondPixels": 7366,
+        "diffPixels": 740,
+        "centerDelta": 0.0,
+        "areaRatio": 1.0028509367363563
+      },
+      {
+        "from": "045",
+        "to": "067.5",
+        "firstPixels": 7366,
+        "secondPixels": 7364,
+        "diffPixels": 675,
+        "centerDelta": 0.0,
+        "areaRatio": 1.0002715915263445
+      },
+      {
+        "from": "067.5",
+        "to": "090",
+        "firstPixels": 7364,
+        "secondPixels": 7324,
+        "diffPixels": 809,
+        "centerDelta": 0.0,
+        "areaRatio": 1.0054614964500272
+      },
+      {
+        "from": "090",
+        "to": "112.5",
+        "firstPixels": 7324,
+        "secondPixels": 7253,
+        "diffPixels": 1009,
+        "centerDelta": 1.5,
+        "areaRatio": 1.0097890528057356
+      },
+      {
+        "from": "112.5",
+        "to": "135",
+        "firstPixels": 7253,
+        "secondPixels": 7227,
+        "diffPixels": 773,
+        "centerDelta": 1.0,
+        "areaRatio": 1.0035976200359762
+      },
+      {
+        "from": "135",
+        "to": "157.5",
+        "firstPixels": 7227,
+        "secondPixels": 7111,
+        "diffPixels": 836,
+        "centerDelta": 1.5,
+        "areaRatio": 1.0163127548867952
+      },
+      {
+        "from": "157.5",
+        "to": "180",
+        "firstPixels": 7111,
+        "secondPixels": 7142,
+        "diffPixels": 1916,
+        "centerDelta": 0.5,
+        "areaRatio": 1.0043594431162988
+      },
+      {
+        "from": "180",
+        "to": "202.5",
+        "firstPixels": 7142,
+        "secondPixels": 7174,
+        "diffPixels": 948,
+        "centerDelta": 0.0,
+        "areaRatio": 1.0044805376645198
+      },
+      {
+        "from": "202.5",
+        "to": "225",
+        "firstPixels": 7174,
+        "secondPixels": 7207,
+        "diffPixels": 632,
+        "centerDelta": 0.0,
+        "areaRatio": 1.0045999442431002
+      },
+      {
+        "from": "225",
+        "to": "247.5",
+        "firstPixels": 7207,
+        "secondPixels": 7317,
+        "diffPixels": 790,
+        "centerDelta": 1.5,
+        "areaRatio": 1.0152629388094907
+      },
+      {
+        "from": "247.5",
+        "to": "270",
+        "firstPixels": 7317,
+        "secondPixels": 7253,
+        "diffPixels": 1110,
+        "centerDelta": 0.5,
+        "areaRatio": 1.00882393492348
+      },
+      {
+        "from": "270",
+        "to": "292.5",
+        "firstPixels": 7253,
+        "secondPixels": 7314,
+        "diffPixels": 1132,
+        "centerDelta": 0.5,
+        "areaRatio": 1.008410312973942
+      },
+      {
+        "from": "292.5",
+        "to": "315",
+        "firstPixels": 7314,
+        "secondPixels": 7338,
+        "diffPixels": 1376,
+        "centerDelta": 1.118033988749895,
+        "areaRatio": 1.003281378178835
+      },
+      {
+        "from": "315",
+        "to": "337.5",
+        "firstPixels": 7338,
+        "secondPixels": 7203,
+        "diffPixels": 1220,
+        "centerDelta": 1.0,
+        "areaRatio": 1.0187421907538525
+      },
+      {
+        "from": "337.5",
+        "to": "000",
+        "firstPixels": 7203,
+        "secondPixels": 7327,
+        "diffPixels": 1444,
+        "centerDelta": 2.0615528128088303,
+        "areaRatio": 1.01721504928502
+      }
+    ]
+  },
+  "blind_review": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "unconfirmed": [],
+    "reviewRequired": false,
+    "pairs": [
+      {
+        "pair": "horizontal-1",
+        "axis": "horizontal",
+        "gate": "review",
+        "A": {
+          "observed": "screen-left",
+          "expected": "screen-left",
+          "source_direction": "337.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "screen-right",
+          "expected": "screen-right",
+          "source_direction": "022.5",
+          "pass": true
+        }
+      },
+      {
+        "pair": "horizontal-2",
+        "axis": "horizontal",
+        "gate": "review",
+        "A": {
+          "observed": "screen-right",
+          "expected": "screen-right",
+          "source_direction": "045",
+          "pass": true
+        },
+        "B": {
+          "observed": "screen-left",
+          "expected": "screen-left",
+          "source_direction": "315",
+          "pass": true
+        }
+      },
+      {
+        "pair": "horizontal-3",
+        "axis": "horizontal",
+        "gate": "review",
+        "A": {
+          "observed": "screen-right",
+          "expected": "screen-right",
+          "source_direction": "067.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "screen-left",
+          "expected": "screen-left",
+          "source_direction": "292.5",
+          "pass": true
+        }
+      },
+      {
+        "pair": "horizontal-4",
+        "axis": "horizontal",
+        "gate": "hard",
+        "A": {
+          "observed": "screen-right",
+          "expected": "screen-right",
+          "source_direction": "090",
+          "pass": true
+        },
+        "B": {
+          "observed": "screen-left",
+          "expected": "screen-left",
+          "source_direction": "270",
+          "pass": true
+        }
+      },
+      {
+        "pair": "horizontal-5",
+        "axis": "horizontal",
+        "gate": "review",
+        "A": {
+          "observed": "screen-left",
+          "expected": "screen-left",
+          "source_direction": "247.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "screen-right",
+          "expected": "screen-right",
+          "source_direction": "112.5",
+          "pass": true
+        }
+      },
+      {
+        "pair": "horizontal-6",
+        "axis": "horizontal",
+        "gate": "review",
+        "A": {
+          "observed": "screen-right",
+          "expected": "screen-right",
+          "source_direction": "135",
+          "pass": true
+        },
+        "B": {
+          "observed": "screen-left",
+          "expected": "screen-left",
+          "source_direction": "225",
+          "pass": true
+        }
+      },
+      {
+        "pair": "horizontal-7",
+        "axis": "horizontal",
+        "gate": "review",
+        "A": {
+          "observed": "screen-right",
+          "expected": "screen-right",
+          "source_direction": "157.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "screen-left",
+          "expected": "screen-left",
+          "source_direction": "202.5",
+          "pass": true
+        }
+      },
+      {
+        "pair": "vertical-1",
+        "axis": "vertical",
+        "gate": "hard",
+        "A": {
+          "observed": "down",
+          "expected": "down",
+          "source_direction": "180",
+          "pass": true
+        },
+        "B": {
+          "observed": "up",
+          "expected": "up",
+          "source_direction": "000",
+          "pass": true
+        }
+      },
+      {
+        "pair": "vertical-2",
+        "axis": "vertical",
+        "gate": "review",
+        "A": {
+          "observed": "up",
+          "expected": "up",
+          "source_direction": "022.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "down",
+          "expected": "down",
+          "source_direction": "157.5",
+          "pass": true
+        }
+      },
+      {
+        "pair": "vertical-3",
+        "axis": "vertical",
+        "gate": "review",
+        "A": {
+          "observed": "up",
+          "expected": "up",
+          "source_direction": "045",
+          "pass": true
+        },
+        "B": {
+          "observed": "down",
+          "expected": "down",
+          "source_direction": "135",
+          "pass": true
+        }
+      },
+      {
+        "pair": "vertical-4",
+        "axis": "vertical",
+        "gate": "review",
+        "A": {
+          "observed": "up",
+          "expected": "up",
+          "source_direction": "067.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "down",
+          "expected": "down",
+          "source_direction": "112.5",
+          "pass": true
+        }
+      },
+      {
+        "pair": "vertical-5",
+        "axis": "vertical",
+        "gate": "review",
+        "A": {
+          "observed": "up",
+          "expected": "up",
+          "source_direction": "337.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "down",
+          "expected": "down",
+          "source_direction": "202.5",
+          "pass": true
+        }
+      },
+      {
+        "pair": "vertical-6",
+        "axis": "vertical",
+        "gate": "review",
+        "A": {
+          "observed": "down",
+          "expected": "down",
+          "source_direction": "225",
+          "pass": true
+        },
+        "B": {
+          "observed": "up",
+          "expected": "up",
+          "source_direction": "315",
+          "pass": true
+        }
+      },
+      {
+        "pair": "vertical-7",
+        "axis": "vertical",
+        "gate": "review",
+        "A": {
+          "observed": "down",
+          "expected": "down",
+          "source_direction": "247.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "up",
+          "expected": "up",
+          "source_direction": "292.5",
+          "pass": true
+        }
+      }
+    ]
+  }
+}

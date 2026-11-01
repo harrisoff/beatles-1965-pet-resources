@@ -1,0 +1,1413 @@
+{
+  "schema_version": 1,
+  "note": "Final QA evidence recorded before upload. Local atlas paths normalized for this archive; sprite bytes and SHA256 are unchanged.",
+  "atlas_validation": {
+    "ok": true,
+    "file": "pets/george/spritesheet.png",
+    "encoded_bytes": 1489488,
+    "sha256": "d7f2f81b5b3f589829bc27b6b4e082c8afd447d0a18e2f5aeff99ea28f819585",
+    "format": "PNG",
+    "mode": "RGBA",
+    "columns": 8,
+    "rows": 11,
+    "sprite_version_number": 2,
+    "width": 1536,
+    "height": 2288,
+    "transparent_rgb_residue_pixels": 0,
+    "errors": [],
+    "warnings": [],
+    "cells": [
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 7737,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 7967,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 7928,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 7894,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 7872,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 7835,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 6,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "idle",
+        "row": 0,
+        "column": 7,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 8834,
+        "opaque_chroma_key_pixels": 1,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 8330,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 8838,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 8209,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 8339,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 8730,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 6,
+        "used": true,
+        "nontransparent_pixels": 9404,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "column": 7,
+        "used": true,
+        "nontransparent_pixels": 8985,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 8834,
+        "opaque_chroma_key_pixels": 1,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 8330,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 8838,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 8209,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 8339,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 8730,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 6,
+        "used": true,
+        "nontransparent_pixels": 9404,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "column": 7,
+        "used": true,
+        "nontransparent_pixels": 8985,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 7697,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 8221,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 8280,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 7646,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 4,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 5,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 6,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "column": 7,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 7303,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 7109,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 7067,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 7038,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 7298,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 5,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 6,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "column": 7,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 7671,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 7544,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 7330,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 6730,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 6488,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 7001,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 6,
+        "used": true,
+        "nontransparent_pixels": 7484,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "column": 7,
+        "used": true,
+        "nontransparent_pixels": 7760,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 7045,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 7112,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 7245,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 7172,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 7167,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 7029,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 6,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "column": 7,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 6703,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 6651,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 6675,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 6686,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 6677,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 6666,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 6,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "column": 7,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 7083,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 7041,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 6932,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 6925,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 7015,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 6976,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 6,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "column": 7,
+        "used": false,
+        "nontransparent_pixels": 0,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 8101,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 8148,
+        "opaque_chroma_key_pixels": 2,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 7986,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 7917,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 7912,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 7823,
+        "opaque_chroma_key_pixels": 1,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 6,
+        "used": true,
+        "nontransparent_pixels": 7799,
+        "opaque_chroma_key_pixels": 1,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-000-to-157.5",
+        "row": 9,
+        "column": 7,
+        "used": true,
+        "nontransparent_pixels": 7542,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 0,
+        "used": true,
+        "nontransparent_pixels": 7761,
+        "opaque_chroma_key_pixels": 2,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 1,
+        "used": true,
+        "nontransparent_pixels": 7840,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 2,
+        "used": true,
+        "nontransparent_pixels": 7792,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 3,
+        "used": true,
+        "nontransparent_pixels": 7738,
+        "opaque_chroma_key_pixels": 1,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 4,
+        "used": true,
+        "nontransparent_pixels": 7781,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 5,
+        "used": true,
+        "nontransparent_pixels": 7797,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 6,
+        "used": true,
+        "nontransparent_pixels": 7740,
+        "opaque_chroma_key_pixels": 0,
+        "chroma_fringe_pixels": 0
+      },
+      {
+        "state": "look-180-to-337.5",
+        "row": 10,
+        "column": 7,
+        "used": true,
+        "nontransparent_pixels": 7728,
+        "opaque_chroma_key_pixels": 1,
+        "chroma_fringe_pixels": 0
+      }
+    ]
+  },
+  "quality": {
+    "ok": true,
+    "atlas": "pets/george/spritesheet.png",
+    "encoded_bytes": 1489488,
+    "sha256": "d7f2f81b5b3f589829bc27b6b4e082c8afd447d0a18e2f5aeff99ea28f819585",
+    "jump": {
+      "idle_baseline": 203,
+      "jump_baselines": [
+        202,
+        195,
+        189,
+        194,
+        202
+      ],
+      "airborne_lift_pixels": 13,
+      "landing_delta_pixels": 1
+    },
+    "look_registration": {
+      "neutral_center_x": 95.5,
+      "look_centers_x": [
+        96.0,
+        96.0,
+        95.0,
+        96.5,
+        96.0,
+        96.0,
+        97.5,
+        97.5,
+        95.0,
+        95.0,
+        96.0,
+        96.0,
+        96.0,
+        96.0,
+        96.0,
+        95.0
+      ],
+      "look_widths": [
+        58,
+        58,
+        58,
+        57,
+        56,
+        56,
+        59,
+        59,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "maximum_center_drift_pixels": 2.0,
+      "maximum_width_ratio": 1.0714285714285714
+    },
+    "errors": [],
+    "warnings": [
+      "look direction 112.5 accepted with a reviewed warning",
+      "look direction 202.5 accepted with a reviewed warning",
+      "look direction 337.5 accepted with a reviewed warning",
+      "157.5->180 diff is a local outlier (2011 pixels vs neighbor average 1030)",
+      "202.5->225 diff is a local outlier (1206 pixels vs neighbor average 791)",
+      "337.5->000 diff is a local outlier (2064 pixels vs neighbor average 1304)"
+    ]
+  },
+  "mcp_preflight": {
+    "valid": true,
+    "file_size_bytes": 1489488,
+    "mime_type": "image/png",
+    "width": 1536,
+    "height": 2288,
+    "sprite_version": 2,
+    "cell_width": 192,
+    "cell_height": 208,
+    "frames_per_row": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "errors": [],
+    "sha256": "d7f2f81b5b3f589829bc27b6b4e082c8afd447d0a18e2f5aeff99ea28f819585"
+  },
+  "direction_semantics": {
+    "directions": {
+      "000": {
+        "expected": "up",
+        "observed": "up",
+        "verdict": "pass",
+        "evidence": "Frontal skull pitches back, chin rises, nose and both pupils aim above ear level; feet remain planted."
+      },
+      "022.5": {
+        "expected": "up-right",
+        "observed": "up-right",
+        "verdict": "pass",
+        "evidence": "Nose projects to screen-right of bridge while chin lifts and pupils aim up-right; near cheek is broader than far cheek."
+      },
+      "045": {
+        "expected": "up-right",
+        "observed": "up-right",
+        "verdict": "pass",
+        "evidence": "Head yaws right with long nose beyond right cheek; raised chin and upward eye white/pupil relation supply up axis."
+      },
+      "067.5": {
+        "expected": "up-right",
+        "observed": "up-right",
+        "verdict": "pass",
+        "evidence": "Right-facing nose and pupil aim right; chin remains slightly lifted relative to horizontal-right anchor."
+      },
+      "090": {
+        "expected": "right",
+        "observed": "right",
+        "verdict": "pass",
+        "evidence": "Right profile exposes one eye; long nose tip points to right edge at approximately horizontal eye level."
+      },
+      "112.5": {
+        "expected": "down-right",
+        "observed": "down-right",
+        "verdict": "warning",
+        "evidence": "Head remains right-facing but chin and nose tip start to lower below the horizontal-right pose; downward pitch is subtle."
+      },
+      "135": {
+        "expected": "down-right",
+        "observed": "down-right",
+        "verdict": "pass",
+        "evidence": "Long nose projects right and down, lowered eyelids aim below eye level, crown is more visible."
+      },
+      "157.5": {
+        "expected": "down-right",
+        "observed": "down-right",
+        "verdict": "pass",
+        "evidence": "Right-yawed bowed face, long nose points down-right toward shoulder, chin sinks while hair crown is visible."
+      },
+      "180": {
+        "expected": "down",
+        "observed": "down",
+        "verdict": "pass",
+        "evidence": "Head bows frontally, hair crown dominates, both eyes and nose tip point down toward feet; face remains visible."
+      },
+      "202.5": {
+        "expected": "down-left",
+        "observed": "down-left",
+        "verdict": "warning",
+        "evidence": "Nose tip is left of facial center and below eyes; head bows, lowered chin and raised crown establish down axis."
+      },
+      "225": {
+        "expected": "down-left",
+        "observed": "down-left",
+        "verdict": "pass",
+        "evidence": "Left-projecting long nose and eye aim below horizontal, with crown visible and chin tucked."
+      },
+      "247.5": {
+        "expected": "down-left",
+        "observed": "down-left",
+        "verdict": "pass",
+        "evidence": "Head faces left with a small downward pitch, nose tip left and slightly lower than horizontal-left family."
+      },
+      "270": {
+        "expected": "left",
+        "observed": "left",
+        "verdict": "pass",
+        "evidence": "Left profile with one visible eye; long nose projects horizontally toward left screen edge."
+      },
+      "292.5": {
+        "expected": "up-left",
+        "observed": "up-left",
+        "verdict": "pass",
+        "evidence": "Nose and one visible eye project left; lifted chin and upward eye direction provide a clear small up component."
+      },
+      "315": {
+        "expected": "up-left",
+        "observed": "up-left",
+        "verdict": "pass",
+        "evidence": "Left-yawed skull with raised chin and long nose tilted up-left; upper eyelid/pupil relationship aims above left horizon."
+      },
+      "337.5": {
+        "expected": "up-left",
+        "observed": "up-left",
+        "verdict": "warning",
+        "evidence": "Leftward nose projection and raised chin provide both axes; pupil looks up-left. Left yaw is stronger than ideal near-vertical spacing but remains coherent."
+      }
+    },
+    "reviewed_at_native_size": true,
+    "continuity_review": "Reviewed all adjacent pairs and both row boundaries. Anchored lower body remains registered; no direction reversal, clipping, alpha hole or visible scale snap. Metric pixel-diff outliers correspond to changes of face projection at down/up families; normalized entire row10 source resolution before common final registration. No individual pose transforms."
+  },
+  "continuity": {
+    "ok": true,
+    "reviewRequired": true,
+    "medianDiffPixels": 1078.5,
+    "warnings": [
+      "157.5->180 diff is a local outlier (2011 pixels vs neighbor average 1030)",
+      "202.5->225 diff is a local outlier (1206 pixels vs neighbor average 791)",
+      "337.5->000 diff is a local outlier (2064 pixels vs neighbor average 1304)"
+    ],
+    "alphaHoles": [],
+    "pairs": [
+      {
+        "from": "000",
+        "to": "022.5",
+        "firstPixels": 7660,
+        "secondPixels": 7725,
+        "diffPixels": 1082,
+        "centerDelta": 0.0,
+        "areaRatio": 1.0084856396866841
+      },
+      {
+        "from": "022.5",
+        "to": "045",
+        "firstPixels": 7725,
+        "secondPixels": 7519,
+        "diffPixels": 972,
+        "centerDelta": 1.118033988749895,
+        "areaRatio": 1.0273972602739727
+      },
+      {
+        "from": "045",
+        "to": "067.5",
+        "firstPixels": 7519,
+        "secondPixels": 7504,
+        "diffPixels": 1468,
+        "centerDelta": 1.5811388300841898,
+        "areaRatio": 1.001998933901919
+      },
+      {
+        "from": "067.5",
+        "to": "090",
+        "firstPixels": 7504,
+        "secondPixels": 7457,
+        "diffPixels": 1075,
+        "centerDelta": 0.7071067811865476,
+        "areaRatio": 1.0063028027356846
+      },
+      {
+        "from": "090",
+        "to": "112.5",
+        "firstPixels": 7457,
+        "secondPixels": 7430,
+        "diffPixels": 976,
+        "centerDelta": 0.5,
+        "areaRatio": 1.0036339165545087
+      },
+      {
+        "from": "112.5",
+        "to": "135",
+        "firstPixels": 7430,
+        "secondPixels": 7353,
+        "diffPixels": 1225,
+        "centerDelta": 2.5,
+        "areaRatio": 1.0104719162246703
+      },
+      {
+        "from": "135",
+        "to": "157.5",
+        "firstPixels": 7353,
+        "secondPixels": 7092,
+        "diffPixels": 1141,
+        "centerDelta": 1.5,
+        "areaRatio": 1.0368020304568528
+      },
+      {
+        "from": "157.5",
+        "to": "180",
+        "firstPixels": 7092,
+        "secondPixels": 7258,
+        "diffPixels": 2011,
+        "centerDelta": 4.301162633521313,
+        "areaRatio": 1.0234066553863508
+      },
+      {
+        "from": "180",
+        "to": "202.5",
+        "firstPixels": 7258,
+        "secondPixels": 7286,
+        "diffPixels": 920,
+        "centerDelta": 0.5,
+        "areaRatio": 1.0038578120694406
+      },
+      {
+        "from": "202.5",
+        "to": "225",
+        "firstPixels": 7286,
+        "secondPixels": 7236,
+        "diffPixels": 1206,
+        "centerDelta": 1.118033988749895,
+        "areaRatio": 1.0069098949695965
+      },
+      {
+        "from": "225",
+        "to": "247.5",
+        "firstPixels": 7236,
+        "secondPixels": 7275,
+        "diffPixels": 662,
+        "centerDelta": 0.5,
+        "areaRatio": 1.0053897180762852
+      },
+      {
+        "from": "247.5",
+        "to": "270",
+        "firstPixels": 7275,
+        "secondPixels": 7230,
+        "diffPixels": 900,
+        "centerDelta": 0.5,
+        "areaRatio": 1.0062240663900415
+      },
+      {
+        "from": "270",
+        "to": "292.5",
+        "firstPixels": 7230,
+        "secondPixels": 7194,
+        "diffPixels": 788,
+        "centerDelta": 0.0,
+        "areaRatio": 1.005004170141785
+      },
+      {
+        "from": "292.5",
+        "to": "315",
+        "firstPixels": 7194,
+        "secondPixels": 7268,
+        "diffPixels": 828,
+        "centerDelta": 0.5,
+        "areaRatio": 1.010286349735891
+      },
+      {
+        "from": "315",
+        "to": "337.5",
+        "firstPixels": 7268,
+        "secondPixels": 7155,
+        "diffPixels": 1525,
+        "centerDelta": 1.0,
+        "areaRatio": 1.0157931516422083
+      },
+      {
+        "from": "337.5",
+        "to": "000",
+        "firstPixels": 7155,
+        "secondPixels": 7660,
+        "diffPixels": 2064,
+        "centerDelta": 1.118033988749895,
+        "areaRatio": 1.0705800139762405
+      }
+    ]
+  },
+  "blind_review": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "unconfirmed": [],
+    "reviewRequired": false,
+    "pairs": [
+      {
+        "pair": "horizontal-1",
+        "axis": "horizontal",
+        "gate": "review",
+        "A": {
+          "observed": "screen-right",
+          "expected": "screen-right",
+          "source_direction": "022.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "screen-left",
+          "expected": "screen-left",
+          "source_direction": "337.5",
+          "pass": true
+        }
+      },
+      {
+        "pair": "horizontal-2",
+        "axis": "horizontal",
+        "gate": "review",
+        "A": {
+          "observed": "screen-right",
+          "expected": "screen-right",
+          "source_direction": "045",
+          "pass": true
+        },
+        "B": {
+          "observed": "screen-left",
+          "expected": "screen-left",
+          "source_direction": "315",
+          "pass": true
+        }
+      },
+      {
+        "pair": "horizontal-3",
+        "axis": "horizontal",
+        "gate": "review",
+        "A": {
+          "observed": "screen-right",
+          "expected": "screen-right",
+          "source_direction": "067.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "screen-left",
+          "expected": "screen-left",
+          "source_direction": "292.5",
+          "pass": true
+        }
+      },
+      {
+        "pair": "horizontal-4",
+        "axis": "horizontal",
+        "gate": "hard",
+        "A": {
+          "observed": "screen-left",
+          "expected": "screen-left",
+          "source_direction": "270",
+          "pass": true
+        },
+        "B": {
+          "observed": "screen-right",
+          "expected": "screen-right",
+          "source_direction": "090",
+          "pass": true
+        }
+      },
+      {
+        "pair": "horizontal-5",
+        "axis": "horizontal",
+        "gate": "review",
+        "A": {
+          "observed": "screen-left",
+          "expected": "screen-left",
+          "source_direction": "247.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "screen-right",
+          "expected": "screen-right",
+          "source_direction": "112.5",
+          "pass": true
+        }
+      },
+      {
+        "pair": "horizontal-6",
+        "axis": "horizontal",
+        "gate": "review",
+        "A": {
+          "observed": "screen-left",
+          "expected": "screen-left",
+          "source_direction": "225",
+          "pass": true
+        },
+        "B": {
+          "observed": "screen-right",
+          "expected": "screen-right",
+          "source_direction": "135",
+          "pass": true
+        }
+      },
+      {
+        "pair": "horizontal-7",
+        "axis": "horizontal",
+        "gate": "review",
+        "A": {
+          "observed": "screen-left",
+          "expected": "screen-left",
+          "source_direction": "202.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "screen-right",
+          "expected": "screen-right",
+          "source_direction": "157.5",
+          "pass": true
+        }
+      },
+      {
+        "pair": "vertical-1",
+        "axis": "vertical",
+        "gate": "hard",
+        "A": {
+          "observed": "up",
+          "expected": "up",
+          "source_direction": "000",
+          "pass": true
+        },
+        "B": {
+          "observed": "down",
+          "expected": "down",
+          "source_direction": "180",
+          "pass": true
+        }
+      },
+      {
+        "pair": "vertical-2",
+        "axis": "vertical",
+        "gate": "review",
+        "A": {
+          "observed": "up",
+          "expected": "up",
+          "source_direction": "022.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "down",
+          "expected": "down",
+          "source_direction": "157.5",
+          "pass": true
+        }
+      },
+      {
+        "pair": "vertical-3",
+        "axis": "vertical",
+        "gate": "review",
+        "A": {
+          "observed": "up",
+          "expected": "up",
+          "source_direction": "045",
+          "pass": true
+        },
+        "B": {
+          "observed": "down",
+          "expected": "down",
+          "source_direction": "135",
+          "pass": true
+        }
+      },
+      {
+        "pair": "vertical-4",
+        "axis": "vertical",
+        "gate": "review",
+        "A": {
+          "observed": "down",
+          "expected": "down",
+          "source_direction": "112.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "up",
+          "expected": "up",
+          "source_direction": "067.5",
+          "pass": true
+        }
+      },
+      {
+        "pair": "vertical-5",
+        "axis": "vertical",
+        "gate": "review",
+        "A": {
+          "observed": "down",
+          "expected": "down",
+          "source_direction": "202.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "up",
+          "expected": "up",
+          "source_direction": "337.5",
+          "pass": true
+        }
+      },
+      {
+        "pair": "vertical-6",
+        "axis": "vertical",
+        "gate": "review",
+        "A": {
+          "observed": "down",
+          "expected": "down",
+          "source_direction": "225",
+          "pass": true
+        },
+        "B": {
+          "observed": "up",
+          "expected": "up",
+          "source_direction": "315",
+          "pass": true
+        }
+      },
+      {
+        "pair": "vertical-7",
+        "axis": "vertical",
+        "gate": "review",
+        "A": {
+          "observed": "up",
+          "expected": "up",
+          "source_direction": "292.5",
+          "pass": true
+        },
+        "B": {
+          "observed": "down",
+          "expected": "down",
+          "source_direction": "247.5",
+          "pass": true
+        }
+      }
+    ]
+  }
+}

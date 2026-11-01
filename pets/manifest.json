@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "sprite_version": 2,
+  "atlas": {
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "required_frames": 73,
+    "unused_cells": 15
+  },
+  "states": [
+    {
+      "name": "idle",
+      "row": 0,
+      "frames": 6,
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    {
+      "name": "running-right",
+      "row": 1,
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "name": "running-left",
+      "row": 2,
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "name": "waving",
+      "row": 3,
+      "frames": 4,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "name": "jumping",
+      "row": 4,
+      "frames": 5,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "name": "failed",
+      "row": 5,
+      "frames": 8,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    {
+      "name": "waiting",
+      "row": 6,
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    {
+      "name": "running",
+      "row": 7,
+      "frames": 6,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "name": "review",
+      "row": 8,
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    }
+  ],
+  "look_directions_clockwise": [
+    0,
+    22.5,
+    45,
+    67.5,
+    90,
+    112.5,
+    135,
+    157.5,
+    180,
+    202.5,
+    225,
+    247.5,
+    270,
+    292.5,
+    315,
+    337.5
+  ],
+  "pets": [
+    {
+      "slug": "paul",
+      "name": "Paul McCartney",
+      "spritesheet": "pets/paul/spritesheet.png",
+      "bytes": 1451700,
+      "sha256": "154884670e6571317cf64cfe154b04ac56e711fbb2ab718fd39d92b8e73eb241",
+      "generation": "pets/paul/generation.json",
+      "validation": "pets/paul/validation.json"
+    },
+    {
+      "slug": "ringo",
+      "name": "Ringo Starr",
+      "spritesheet": "pets/ringo/spritesheet.png",
+      "bytes": 1581662,
+      "sha256": "21eb758a641a1242f691d1cd7008c8e255d7d37eb655860efa1ba5f9f4d6fc4b",
+      "generation": "pets/ringo/generation.json",
+      "validation": "pets/ringo/validation.json"
+    },
+    {
+      "slug": "john",
+      "name": "John Lennon",
+      "spritesheet": "pets/john/spritesheet.png",
+      "bytes": 1590206,
+      "sha256": "3d119a1c9b3a5dacafe691b67a90efc3a5377fd01a75f9c262f954dd801ad766",
+      "generation": "pets/john/generation.json",
+      "validation": "pets/john/validation.json"
+    },
+    {
+      "slug": "george",
+      "name": "George Harrison",
+      "spritesheet": "pets/george/spritesheet.png",
+      "bytes": 1489488,
+      "sha256": "d7f2f81b5b3f589829bc27b6b4e082c8afd447d0a18e2f5aeff99ea28f819585",
+      "generation": "pets/george/generation.json",
+      "validation": "pets/george/validation.json"
+    }
+  ],
+  "previews": [
+    {
+      "file": "pets/previews/beatles-quartet-animations.mp4",
+      "kind": "all-states",
+      "sequence_repetitions": 1,
+      "bytes": 523964,
+      "sha256": "f48d45e2946b111ffbe59c82f81888abf7bf36d8d9734fbc49bdeab6ff791a14",
+      "codec_name": "h264",
+      "width": 768,
+      "height": 252,
+      "nb_frames": "57",
+      "duration_seconds": 8.82
+    },
+    {
+      "file": "pets/previews/beatles-quartet-look-loop.gif",
+      "kind": "look-directions",
+      "sequence_repetitions": 1,
+      "bytes": 520220,
+      "sha256": "ca0063a1aec9c1a145be93d845f4d4beaa16a738794790bc418bc80ec4504009",
+      "width": 768,
+      "height": 252,
+      "frames": 16,
+      "duration_seconds": 2.88,
+      "playback": "infinite loop"
+    },
+    {
+      "file": "pets/previews/beatles-quartet-look-loop.mp4",
+      "kind": "look-directions",
+      "sequence_repetitions": 2,
+      "bytes": 273473,
+      "sha256": "2a6887d83e1b68373bdd2c55ccaa51618f00e0c02ecf6fbacf05e76ddbb52b24",
+      "codec_name": "h264",
+      "width": 768,
+      "height": 252,
+      "nb_frames": "288",
+      "duration_seconds": 5.76
+    }
+  ],
+  "preview_order": [
+    "paul",
+    "ringo",
+    "john",
+    "george"
+  ]
+}

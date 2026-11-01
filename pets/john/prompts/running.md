@@ -1,0 +1,20 @@
+Create one horizontal animation strip for ChatGPT pet `john-lennon`, state `running`.
+
+Use the attached canonical base for identity. Use the attached layout guide only for slot count, spacing, centering, and padding; do not draw the guide.
+
+Output exactly 6 full-body frames in one left-to-right row on flat pure magenta #FF00FF. Treat the row as 6 invisible equal-width slots: one centered complete pose per slot, evenly spaced, with no overlap, clipping, empty slots, labels, or borders.
+
+Identity: same pet in every frame: John Lennon 1965 Beatles cartoon. WIDE rounded U-shaped long lower jaw, LONG J-shaped thin nose with hooked end, sleepy almond eyes, black mop hair and square sideburns. Blue suit jacket and matching long blue trousers, blue collared shirt and narrow navy tie, black pointed shoes. Preserve original mature slender cartoon proportions. No guitar or new props. Flat cel-cartoon colors and crisp black outlines, exact source identity. Head pitch/yaw for looks with anchored frontal torso and feet.. Preserve silhouette, face, proportions, markings, palette, material, style, and props.
+Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `flat-vector`: Flat vector-style mascot with simple geometric forms, crisp color areas, clean outline, and minimal shading.
+Animation continuity: keep apparent pet scale and baseline stable within the row unless the state itself intentionally changes vertical position, such as `jumping`. Move the pose within the slot instead of redrawing the pet larger or smaller frame to frame.
+
+State action: Working loop: focused active-task processing, thinking, typing, scanning, or effortful concentration; not literal foot-running, jogging, sprinting, treadmill motion, raised knees, long steps, pumping arms, or directional travel.
+
+State requirements:
+- Show the pet actively working or processing, as if running a task: focused posture, busy hands or paws, purposeful bobbing, thinking motion, tool or prop motion only if already part of the pet identity, or other non-locomotion activity.
+- Do not show literal foot-running, jogging, sprinting, treadmill motion, raised knees, long steps, pumping arms, directional travel, speed lines, dust clouds, floor shadows, motion trails, or detached motion effects.
+
+Clean extraction: crisp opaque edges, safe padding, no scenery, text, guide marks, checkerboard, shadows, glows, motion blur, speed lines, dust, detached effects, stray pixels, or chroma-key colors inside the pet.
+
+Production sequence SIX quiet active-thinking poses, feet motionless and planted at same center baseline:1 focused eyes with one hand lifting toward chin,2 index fingertip on chin,3 focused thinking slight head tilt fingertip taps chin,4 hand still at chin with tiny finger reposition and eyes narrowing in concentration,5 thoughtful small head nod finger lowers slightly,6 returns close pose1. Other arm rests near side or across low torso. Keep jaw wide long U, thin hooked long Jnose, mature slender long blue trousers and blue collar/navy tie. This is task PROCESSING, absolutely not running with legs. No open palm invitation, no hands-behind-back review, no props, UI, symbols or effects. Six complete separated full figures in one padded wide row.
+CRITICAL continuous motion correction: use the SAME chin-touching hand in ALL SIX FRAMES: the character's LEFT hand, shown on SCREEN RIGHT. Screen-right elbow stays bent toward chin throughout, while screen-left forearm stays folded at low torso supporting that elbow throughout. Do not switch hands or swap folded-arm direction in any frame. Only fingertips, eyebrows, eyelids and a very small head pitch vary across the six frames. Keep face nearly frontal throughout, same U jaw and J nose, no big turn. First and last almost identical. Sixth image target (if shown) is only a composition style example; preserve correct same-hand loop.

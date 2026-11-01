@@ -1,0 +1,75 @@
+{
+  "name": "George Harrison",
+  "description": "1965 年 Beatles 动画风格的 George Harrison，蓝色外套、深色高领，安静而专注。.",
+  "style": "flat-vector",
+  "character_notes": "Use the supplied Beatles 1965 George Harrison references. Preserve narrow angular face, long straight pointed nose, heavy brows, dark mop hair and pointed nape tufts, slightly stooped slim body, blue jacket and matching blue trousers, dark navy turtleneck, black shoes. Flat cel animation, no guitar or added props. Preserve original mature cartoon proportions, not chibi. Screen-direction looks use head pitch/yaw with torso and feet anchored.",
+  "source_reference_revision": "592b1bd459f4181e1eba347d7b30bf972f0dcb33",
+  "identity_references": [
+    "generated/george-reference-sheet-v3.png",
+    "generated/george-head-angles-v1.png"
+  ],
+  "visual_generation": "built-in imagegen; each state grounded in canonical identity and source references",
+  "prompts": {
+    "base": {
+      "file": "pets/george/prompts/base.md",
+      "provenance": "prepared-job-template"
+    },
+    "idle": {
+      "file": "pets/george/prompts/idle.md",
+      "provenance": "prepared-job-template"
+    },
+    "running-right": {
+      "file": "pets/george/prompts/running-right.md",
+      "provenance": "prepared-job-template"
+    },
+    "waving": {
+      "file": "pets/george/prompts/waving.md",
+      "provenance": "prepared-job-template"
+    },
+    "jumping": {
+      "file": "pets/george/prompts/jumping.md",
+      "provenance": "prepared-job-template"
+    },
+    "failed": {
+      "file": "pets/george/prompts/failed.md",
+      "provenance": "prepared-job-template"
+    },
+    "waiting": {
+      "file": "pets/george/prompts/waiting.md",
+      "provenance": "prepared-job-template"
+    },
+    "running": {
+      "file": "pets/george/prompts/running.md",
+      "provenance": "prepared-job-template"
+    },
+    "review": {
+      "file": "pets/george/prompts/review.md",
+      "provenance": "prepared-job-template"
+    },
+    "look-cardinals": {
+      "file": "pets/george/prompts/look-cardinals.md",
+      "provenance": "prepared-job-template"
+    },
+    "look-row-9": {
+      "file": "pets/george/prompts/look-row-9.md",
+      "provenance": "prepared-job-template"
+    },
+    "look-row-10": {
+      "file": "pets/george/prompts/look-row-10.md",
+      "provenance": "prepared-job-template"
+    }
+  },
+  "running_left": {
+    "method": "framewise horizontal mirror of approved running-right frames; temporal order preserved",
+    "reason": "no handed props or asymmetric costume markings in selected design"
+  },
+  "workflow_notes": [
+    "Generate canonical base first from both identity references.",
+    "Generate each action independently; extract complete pose components with one shared scale per row.",
+    "Reserve jump headroom and retain airborne vertical displacement.",
+    "Approve standard-row contact sheet, then four cardinal anchors, then coherent look row9, then row10.",
+    "Use look-mechanics.md and cardinal anchors for direction meaning; prior look row supplies scale and continuity.",
+    "Final spritesheet bytes are archived; raw strips and frame-level working files are not included.",
+    "Prompt files marked prepared-job-template are preparation templates, not an exact saved final tool call."
+  ]
+}

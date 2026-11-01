@@ -25,7 +25,7 @@
 2. 挥手、向左跑、向右跑、跳跃。
 3. 思考等待、失落、庆祝、演奏乐器。
 
-背面及部分动作属于生成推演，不能作为历史资料。素材尚未制作为可直接导入 ChatGPT Pet 的动画精灵图。
+背面及部分动作属于生成推演，不能作为历史资料。`generated/` 是制作参考；可导入的最终 v2 动画精灵图已单独保存在 [`pets/`](pets/README.md)。
 
 五角度头部图从左到右为：**左 90°、左 45°、正面、右 45°、右 90°**。45°视角保留双眼及较宽的近侧面颊；纯侧面只呈现单眼，并以额头、鼻尖、嘴唇、下巴构成侧面轮廓。这里的角度是生成目标，原片截图中的视角只作目测分类。
 
@@ -33,12 +33,24 @@
 
 ![四人补充素材总览](previews/four-characters-overview.jpg)
 
+## 已完成的 Pet 动画
+
+四位角色均已完成 1536 × 2288 的透明 v2 精灵图，每位包含九种动作及十六方向视线，共 73 帧。最终字节对应的结构、质量、Pets 预检及三位独立方向盲审记录随文件保留。
+
+- [Paul McCartney](pets/paul/spritesheet.png) · [Ringo Starr](pets/ringo/spritesheet.png) · [John Lennon](pets/john/spritesheet.png) · [George Harrison](pets/george/spritesheet.png)
+- [四人动作 MP4](pets/previews/beatles-quartet-animations.mp4)
+- [四人视线 GIF](pets/previews/beatles-quartet-look-loop.gif) · [四人视线 MP4（两遍循环，5.76 秒）](pets/previews/beatles-quartet-look-loop.mp4)
+- [制作约束、提示词、校验值与预览重渲染说明](pets/README.md)
+
+![四人视线循环](pets/previews/beatles-quartet-look-loop.gif)
+
 ## 目录
 
 | 路径 | 内容 |
 | --- | --- |
 | `originals/` | 原样保存的网络图片，未放大、重新上色或 AI 修复 |
 | `generated/` | 最终选用的八张透明 PNG 补充图，以及保留的早期版本；最新选择见 `generated-selection.json` |
+| `pets/` | 四位角色的最终可导入精灵图、四人预览、提示词、验证报告与可移植渲染脚本 |
 | `characters/` | 每位角色的来源索引和辨认说明 |
 | `previews/` | 原图缩略总览和生成图总览 |
 | `materials-manifest.json` | 最终素材选择、用途、类型和文件校验值 |
