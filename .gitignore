@@ -17,3 +17,8 @@ Thumbs.db
 .env.*
 !.env.example
 *.zip
+/.tools/
+/source-videos/
+/frame-candidates/
+/generated/ringo-reference-sheet-v3.png
+/generated/ringo-reference-sheet-v4.png

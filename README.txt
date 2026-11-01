@@ -7,13 +7,19 @@ originals/：从网络下载的原样文件；没有重新上色、AI修复或�
 generated/：使用内置 Image Generation，根据原片人物设定补充的透明 PNG。
 characters/：按 John、Paul、George、Ringo 整理的角色索引。
 sources.json：每张网络图片的来源网页、图片地址、原始尺寸和校验值。
-generation-prompts.json：生成补充图所用提示词和参考图。
+generation-prompts.json：初始补充图所用提示词和参考图。
+angle-generation-prompts.json：新五角度头部图提示词和原片参考。
+angle-repair-prompts.json：用五角度头部图修正全身图的提示词。
+generated-selection.json：八张最新生成图的明确选择，早期版本供对照。
 previews/：供检查和浏览用的缩略图总览；原图请看 originals/、generated/。
 
 每人的生成参考图采用 4 列 × 3 行，共 12 个独立姿势：
 第一行：正面、右侧四分之三、右侧面、背面。
 第二行：挥手、向左跑、向右跑、跳跃。
 第三行：思考等待、失落、庆祝、演奏乐器。
+另有每人一条五角度头部图：左90°、左45°、正面、右45°、右90°。
+45°呈现双眼，纯侧面呈现单眼；四人使用各自的鼻形、面颊和下颌轮廓。
+共49张原始参考图及8张最新生成图，其中新增28张原片截图保留片源时间点。
 背面和未在原片中核实的动作属于推演补充，不是历史资料。
 这批图是角色制作参考，尚未制作为可直接导入 ChatGPT Pet 的动画精灵图。
 

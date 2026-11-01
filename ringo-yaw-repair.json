@@ -1,0 +1,11 @@
+{
+  "name": "Ringo",
+  "output": "generated/ringo-reference-sheet-v4.png",
+  "references": [
+    "generated/ringo-reference-sheet-v3.png",
+    "generated/ringo-head-angles-v1.png"
+  ],
+  "prompt": "Edit image 1, a 4-column by 3-row Ringo Starr sheet. Change ONLY the HEAD of the TOP ROW SECOND FIGURE (standing three-quarter pose); preserve every other pixel/pose as closely as possible. That head is incorrectly almost the same one-eye profile as top-row third figure. Replace it with the FOURTH PORTRAIT of image 2 (the approved Ringo head-turn strip), scaled to the existing head size and attached at the same neck. The fourth portrait of image 2 is a clear two-eye three-quarter head facing screen-right: BOTH EYES and BOTH EYEBROWS are plainly visible above the huge pear nose, the far eye must be wide enough to read at small size, the nose is oblique and nearer center, the far cheek and near cheek are both visible. Copy that specific two-eye head projection and hair silhouette, DO NOT reuse the third figure's pure-profile head. If necessary use a gentler 35-45 degree yaw to keep BOTH eyes unambiguously readable. Keep his giant bulbous nose, tiny chin, sad half-lidded eyes, shaggy mop-top. Do not change front figure, pure-profile third figure, back fourth figure, or other nine action poses. Do not change body, costume or scale of the second figure. No new text, props, shadows, or backgrounds. Preserve true transparency. The only intended edit is replacing the second figure's one-eye head with the reference's two-eye three-quarter head.",
+  "status": "rejected: one-eye three-quarter persisted; superseded by full regeneration v5",
+  "selected": false
+}

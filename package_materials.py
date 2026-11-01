@@ -32,25 +32,36 @@ records=[]
 for a in source_list:
     if 'file' not in a:continue
     ident=a['id']
-    title,kind,priority=labels.get(ident,(ident,'低清补充画面',3))
+    title,kind,priority=labels.get(ident,(a.get('title_zh',ident),a.get('type_zh','低清补充画面'),a.get('priority',3)))
     a.update(title_zh=title,type_zh=kind,priority=priority,generated=False)
     if ident=='historical-model-sheet':a['kind']='2007 licensed sericel reproduction of original television-cartoon character design; not an original 1965 production model sheet'
     if ident=='screenshot-archive-beatles01':a['characters']=['Paul']
     if ident in ['screenshot-archive-beatles031','screenshot-archive-beatles05']:a['characters']=[]
     if ident=='screenshot-archive-beatles04':a['characters']=[]
-    a['quality_note']='保留下载文件的像素尺寸；未做放大或 AI 修复。' if priority<3 else '低分辨率，仅供构图与剧情参考。'
+    a['quality_note']=a.get('quality_note') if a.get('timestamp_seconds') is not None else ('保留下载文件的像素尺寸；未做放大或 AI 修复。' if priority<3 else '低分辨率，仅供构图与剧情参考。')
     records.append(a)
 finals={}
+selection_path=ROOT/'generated-selection.json'
+selection=json.loads(selection_path.read_text(encoding='utf-8')) if selection_path.exists() else {}
 for name in names:
     slug=name.lower()
     v2=ROOT/'generated'/f'{slug}-reference-sheet-v2.png'
-    file=v2 if v2.exists() else ROOT/'generated'/f'{slug}-reference-sheet.png'
+    file=ROOT/selection[name]['body'] if name in selection else (v2 if v2.exists() else ROOT/'generated'/f'{slug}-reference-sheet.png')
     if not file.exists():raise RuntimeError(f'Missing generated sheet: {name}')
     with Image.open(file) as im:
         extrema=im.getchannel('A').getextrema() if 'A' in im.getbands() else None
         if extrema is None or extrema[0]!=0:raise RuntimeError(f'Missing transparency: {name}')
         meta={'id':slug+'-generated-reference','title_zh':name+' · 12 姿势透明补充图','type_zh':'AI 生成补充','kind':'AI-generated supplemental identity and pose reference; back view and additional actions are inferred','characters':[name],'generated':True,'priority':1,'file':str(file.relative_to(ROOT)).replace('\\','/'),'width':im.width,'height':im.height,'mode':im.mode,'alpha_extrema':extrema,'bytes':file.stat().st_size,'sha256':hashlib.sha256(file.read_bytes()).hexdigest(),'quality_note':'4 列 × 3 行；新生成参考图，非原片截图或可直接导入的精灵图。'}
     finals[name]=meta;records.append(meta)
+head_finals={}
+for name,choice in selection.items():
+    if not choice.get('head'):continue
+    file=ROOT/choice['head']
+    with Image.open(file) as im:
+        extrema=im.getchannel('A').getextrema() if 'A' in im.getbands() else None
+        if extrema is None or extrema[0]!=0:raise RuntimeError(f'Missing head-strip transparency: {name}')
+        meta={'id':name.lower()+'-head-angles','title_zh':name+' · 五角度头部参考','type_zh':'AI 生成补充','kind':'AI-generated head-turn reference grounded in timestamped original episode frames','characters':[name],'generated':True,'priority':1,'file':str(file.relative_to(ROOT)).replace('\\','/'),'width':im.width,'height':im.height,'mode':im.mode,'alpha_extrema':extrema,'bytes':file.stat().st_size,'sha256':hashlib.sha256(file.read_bytes()).hexdigest(),'quality_note':'左90°、左45°、正面、右45°、右90°。45°呈现双眼，纯侧面呈现单眼；角度为生成目标，不是原片相机测量。','prompt_file':'angle-generation-prompts.json'}
+    head_finals[name]=meta;records.append(meta)
 (ROOT/'sources.json').write_text(json.dumps(source_list,ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'materials-manifest.json').write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
 
@@ -60,12 +71,12 @@ def make_html(subset,prefix='',character=None):
     for a in sorted(subset,key=lambda a:(a['priority'],not a['generated'],a['id'])):
         path=prefix+a['file'];src=html.escape(path,quote=True)
         ch=' '.join(a['characters']);kind='generated' if a['generated'] else 'original'
-        source='AI 生成 · 提示词见 generation-prompts.json' if a['generated'] else '<a href="'+html.escape(a['page'],quote=True)+'" target="_blank" rel="noopener">查看来源网页</a>'
+        source='<a href="'+prefix+a.get('prompt_file','angle-repair-prompts.json' if selection else 'generation-prompts.json')+'">AI 生成 · 查看提示词</a>' if a['generated'] else '<a href="'+html.escape(a['page'],quote=True)+'" target="_blank" rel="noopener">查看来源网页</a>'
         cards.append(f'''<article data-char="{ch}" data-kind="{kind}" data-priority="{a['priority']}"><a href="{src}" target="_blank"><img src="{src}" alt="{html.escape(a['title_zh'])}" loading="lazy"></a><div class="body"><h2>{html.escape(a['title_zh'])}</h2><div class="meta">{a['type_zh']} · {a['width']} × {a['height']}</div><small>{a['quality_note']}</small><p><a href="{src}" download>下载原尺寸文件</a> · {source}</p></div></article>''')
     title=(character+' · ' if character else '')+'The Beatles 1965 素材包'
     intro=notes[character] if character else '四位角色的原片画面、原始动画稿照片、设定复刻与 AI 补充图。先用历史资料确定身份与服装，再用透明补充图扩展动作。'
     charbuttons='' if character else '<nav aria-label="按角色筛选">'+''.join(f'<button data-filter="char" data-value="{v}" aria-pressed="{str(v=="all").lower()}">{v if v!="all" else "全部角色"}</button>' for v in ['all']+names)+'</nav>'
-    htmltext=f'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title><style>{style}</style><header><div class="meta">REFERENCE COLLECTION / 2026-11-01</div><h1>{title}</h1><p>{intro}</p><p class="note">生成图每人 12 姿势：正面、四分之三、侧面、背面；挥手、左跑、右跑、跳跃；思考、失落、庆祝、演奏。背面和部分动作是推演参考。原片截图的文件尺寸不等于真实高清画质。</p>{charbuttons}<nav aria-label="按素材类型筛选"><button data-filter="kind" data-value="all" aria-pressed="true">全部来源</button><button data-filter="kind" data-value="original" aria-pressed="false">网络原图</button><button data-filter="kind" data-value="generated" aria-pressed="false">AI 补充图</button><button id="lowres" aria-pressed="false">显示低清补充</button></nav><div id="count" class="meta"></div></header><main class="grid">{''.join(cards)}</main><footer>来源与像素记录见 <a href="{prefix}materials-manifest.json">materials-manifest.json</a>。2007 设定复刻不是 1965 年原件。原始作品版权归各权利人；AI 补充图不是历史资料。</footer><script>let char='all',kind='all',low=false;function apply(){{let n=0;document.querySelectorAll('article').forEach(a=>{{let show=(char==='all'||a.dataset.char.split(' ').includes(char))&&(kind==='all'||a.dataset.kind===kind)&&(low||Number(a.dataset.priority)<3);a.hidden=!show;if(show)n++}});document.getElementById('count').textContent=n+' 张素材 · 点击图片查看原尺寸'}}document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{{let f=b.dataset.filter;document.querySelectorAll('[data-filter='+f+']').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');if(f==='char')char=b.dataset.value;else kind=b.dataset.value;apply()}});document.getElementById('lowres').onclick=function(){{low=!low;this.setAttribute('aria-pressed',String(low));apply()}};apply();</script></html>'''
+    htmltext=f'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title><style>{style}</style><header><div class="meta">REFERENCE COLLECTION / 2026-11-01</div><h1>{title}</h1><p>{intro}</p><p class="note">每人 12 个全身姿势，另有左90°、左45°、正面、右45°、右90°五角度头部参考。新增原片截图标有片源时间点。背面和部分动作是推演参考，原片文件尺寸不等于真实高清画质。</p>{charbuttons}<nav aria-label="按素材类型筛选"><button data-filter="kind" data-value="all" aria-pressed="true">全部来源</button><button data-filter="kind" data-value="original" aria-pressed="false">网络原图</button><button data-filter="kind" data-value="generated" aria-pressed="false">AI 补充图</button><button id="lowres" aria-pressed="false">显示低清补充</button></nav><div id="count" class="meta"></div></header><main class="grid">{''.join(cards)}</main><footer>来源与像素记录见 <a href="{prefix}materials-manifest.json">materials-manifest.json</a>。2007 设定复刻不是 1965 年原件。原始作品版权归各权利人；AI 补充图不是历史资料。</footer><script>let char='all',kind='all',low=false;function apply(){{let n=0;document.querySelectorAll('article').forEach(a=>{{let show=(char==='all'||a.dataset.char.split(' ').includes(char))&&(kind==='all'||a.dataset.kind===kind)&&(low||Number(a.dataset.priority)<3);a.hidden=!show;if(show)n++}});document.getElementById('count').textContent=n+' 张素材 · 点击图片查看原尺寸'}}document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{{let f=b.dataset.filter;document.querySelectorAll('[data-filter='+f+']').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');if(f==='char')char=b.dataset.value;else kind=b.dataset.value;apply()}});document.getElementById('lowres').onclick=function(){{low=!low;this.setAttribute('aria-pressed',String(low));apply()}};apply();</script></html>'''
     return htmltext
 (ROOT/'index.html').write_text(make_html(records),encoding='utf-8')
 for name in names:
@@ -82,7 +93,14 @@ for i,name in enumerate(names):
     d.text((x+25,y+10),name+' / AI supplement / 12 poses',font=font,fill='#243e32')
     overview.paste(im,(x+(800-im.width)//2,y+60+(590-im.height)//2),im)
 overview.save(ROOT/'previews'/'four-characters-overview.jpg',quality=95)
-qa={'source_images':len(source_list),'selected_network_images':sum(a['priority']<3 for a in records if not a['generated']),'low_resolution_network_images':sum(a['priority']==3 for a in records if not a['generated']),'generated_sheets':len(finals),'generated_pose_panels':12*len(finals),'sheets':finals,'checks':{'download_hashes_retained':True,'all_generated_files_have_alpha_zero':True,'network_originals_unmodified':True,'visual_review':'All original files reviewed in contact sheet; all final generated sheets visually reviewed separately. Inferred back views explicitly labeled. These are reference materials, not validated pet spritesheets.'}}
+if head_finals:
+    heads=Image.new('RGB',(1800,4*440),'#f4f1e9');draw=ImageDraw.Draw(heads)
+    for i,name in enumerate(names):
+        im=Image.open(ROOT/head_finals[name]['file']).convert('RGBA');im.thumbnail((1760,370))
+        draw.text((25,i*440+10),name+' | left 90 / left 45 / front / right 45 / right 90',font=font,fill='#243e32')
+        heads.paste(im,((1800-im.width)//2,i*440+55+(370-im.height)//2),im)
+    heads.save(ROOT/'previews'/'head-angles-overview.jpg',quality=95)
+qa={'source_images':len(source_list),'selected_network_images':sum(a['priority']<3 for a in records if not a['generated']),'low_resolution_network_images':sum(a['priority']==3 for a in records if not a['generated']),'generated_sheets':len(finals)+len(head_finals),'generated_pose_panels':12*len(finals)+5*len(head_finals),'sheets':finals,'head_strips':head_finals,'checks':{'download_hashes_retained':True,'all_generated_files_have_alpha_zero':True,'network_originals_unmodified':True,'visual_review':'Original screenshots, five-angle strips and updated body sheets reviewed visually; source times retained. Inferred back views explicitly labeled. These are reference materials, not validated pet spritesheets.'}}
 (ROOT/'qa-summary.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2),encoding='utf-8')
 
 archive=ROOT.parent/'beatles-1965-reference-pack.zip'
@@ -90,8 +108,8 @@ with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
     for sub in ['originals','characters','previews']:
         for p in (ROOT/sub).rglob('*'):
             if p.is_file():z.write(p,str(p.relative_to(ROOT)))
-    for a in finals.values():z.write(ROOT/a['file'],a['file'])
-    for name in ['README.txt','index.html','sources.json','materials-manifest.json','generation-prompts.json','generation-repairs.json','qa-summary.json']:
+    for a in list(finals.values())+list(head_finals.values()):z.write(ROOT/a['file'],a['file'])
+    for name in ['README.md','README.txt','index.html','sources.json','materials-manifest.json','generation-prompts.json','generation-repairs.json','angle-generation-prompts.json','angle-repair-prompts.json','ringo-yaw-repair.json','ringo-regeneration-prompts.json','generated-selection.json','angle-review.json','qa-summary.json']:
         p=ROOT/name
         if p.exists():z.write(p,name)
 print(json.dumps({'zip':str(archive),'bytes':archive.stat().st_size,'sources':len(source_list),'generated':{n:(a['file'],a['width'],a['height']) for n,a in finals.items()}},ensure_ascii=False,indent=2))

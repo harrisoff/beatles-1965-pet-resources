@@ -5,7 +5,7 @@ from PIL import Image
 import json, hashlib
 
 ROOT=Path(__file__).resolve().parent
-sources=json.loads((ROOT/'sources.json').read_text())
+sources=json.loads((ROOT/'sources.json').read_text(encoding='utf-8'))
 items=[
  ('screenshot-tv-gag','https://static.next-episode.net/tv-shows-images/huge/the-beatles-1965.jpg','https://next-episode.net/the-beatles-1965','published series still; exact episode unconfirmed'),
  ('screenshot-performance','https://m.media-amazon.com/images/M/MV5BNWQyY2VlNTEtZDIzOS00OWNlLWFkOTYtZjRiNDA1YjgyNWQ2XkEyXkFqcGc%40._V1_.jpg','https://www.imdb.com/title/tt0058790/','series performance still; exact episode unconfirmed'),

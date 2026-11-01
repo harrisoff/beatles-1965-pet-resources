@@ -1,0 +1,121 @@
+{
+  "reviewed_at": "2026-11-01",
+  "method": "Manual visual inspection of unretouched source frames, full-resolution five-angle strips, and enlarged previews of the first three full-body poses. Angles are artistic targets, not measured camera poses.",
+  "head_order": [
+    "screen-left profile",
+    "screen-left three-quarter",
+    "front",
+    "screen-right three-quarter",
+    "screen-right profile"
+  ],
+  "expected_visible_eye_counts": [
+    1,
+    2,
+    2,
+    2,
+    1
+  ],
+  "characters": [
+    {
+      "name": "John",
+      "head": "generated/john-head-angles-v1.png",
+      "body": "generated/john-reference-sheet-v3.png",
+      "source_ids": [
+        "episode-s01e01-108",
+        "episode-s01e01-023",
+        "episode-s01e01-031"
+      ],
+      "observed": "Wide rounded U-shaped lower jaw and long J-shaped nose preserved. Both eyes visible in three-quarter heads; profiles have one eye and a protruding nose silhouette.",
+      "head_eye_counts": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "body_first_three_eye_counts": [
+        2,
+        2,
+        1
+      ],
+      "verdict": "accepted"
+    },
+    {
+      "name": "Paul",
+      "head": "generated/paul-head-angles-v1.png",
+      "body": "generated/paul-reference-sheet-v3.png",
+      "source_ids": [
+        "episode-s01e01-044",
+        "episode-s01e01-020",
+        "episode-s01e01-077"
+      ],
+      "observed": "Short small nose, large expressive eyes and softer compact jaw separate Paul from John and George. Three-quarter and profile differ in far-eye visibility and near-cheek width.",
+      "head_eye_counts": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "body_first_three_eye_counts": [
+        2,
+        2,
+        1
+      ],
+      "verdict": "accepted"
+    },
+    {
+      "name": "George",
+      "head": "generated/george-head-angles-v1.png",
+      "body": "generated/george-reference-sheet-v3.png",
+      "source_ids": [
+        "episode-s01e01-116",
+        "episode-s01e01-093",
+        "episode-s01e01-128"
+      ],
+      "observed": "Narrow angular lower face, long straight pointed nose, heavy brows and pointed nape tufts retained. Three-quarter retains a small far eye; pure profile hides it.",
+      "head_eye_counts": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "body_first_three_eye_counts": [
+        2,
+        2,
+        1
+      ],
+      "verdict": "accepted"
+    },
+    {
+      "name": "Ringo",
+      "head": "generated/ringo-head-angles-v1.png",
+      "body": "generated/ringo-reference-sheet-v5.png",
+      "source_ids": [
+        "episode-s01e01-114",
+        "episode-s01e01-057",
+        "episode-s01e01-137"
+      ],
+      "observed": "Large pear-shaped nose and tiny chin retained. Whole body sheet regenerated after two local edits failed to expose the far eye. Selected v5 top-row second pose now visibly has both eyes and an oblique nose, while third pose has one eye and a protruding side silhouette.",
+      "head_eye_counts": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "body_first_three_eye_counts": [
+        2,
+        2,
+        1
+      ],
+      "verdict": "accepted"
+    }
+  ],
+  "limitations": [
+    "Supplemental generated drawings, not archival cels or exact reproductions of a specific episode frame.",
+    "Head angles are approximate cartoon projections; the far eye can be small at normal pet size.",
+    "These reference sheets have not been validated as an importable pet animation atlas."
+  ]
+}

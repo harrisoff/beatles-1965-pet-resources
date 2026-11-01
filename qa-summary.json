@@ -1,9 +1,9 @@
 {
-  "source_images": 21,
-  "selected_network_images": 15,
+  "source_images": 49,
+  "selected_network_images": 43,
   "low_resolution_network_images": 6,
-  "generated_sheets": 4,
-  "generated_pose_panels": 48,
+  "generated_sheets": 8,
+  "generated_pose_panels": 68,
   "sheets": {
     "John": {
       "id": "john-generated-reference",
@@ -15,16 +15,16 @@
       ],
       "generated": true,
       "priority": 1,
-      "file": "generated/john-reference-sheet-v2.png",
-      "width": 1448,
+      "file": "generated/john-reference-sheet-v3.png",
+      "width": 1449,
       "height": 1086,
       "mode": "RGBA",
       "alpha_extrema": [
         0,
         255
       ],
-      "bytes": 784166,
-      "sha256": "023200a0e146f55c80a71db030119e3405c1b99bb8e161279ae3dbaa147d2d00",
+      "bytes": 865429,
+      "sha256": "d6d56a77fe9f7b8009c08d017647a4d032b5893a032e8d132d3c9124bfe52fae",
       "quality_note": "4 列 × 3 行；新生成参考图，非原片截图或可直接导入的精灵图。"
     },
     "Paul": {
@@ -37,16 +37,16 @@
       ],
       "generated": true,
       "priority": 1,
-      "file": "generated/paul-reference-sheet-v2.png",
-      "width": 1449,
+      "file": "generated/paul-reference-sheet-v3.png",
+      "width": 1448,
       "height": 1086,
       "mode": "RGBA",
       "alpha_extrema": [
         0,
         255
       ],
-      "bytes": 786335,
-      "sha256": "317221f50b5ac75b29d3bc87c2760ca71d2e5b67fc1f132637bbbdcb6ff67e5e",
+      "bytes": 802146,
+      "sha256": "5fae93ee2911dab5becf673cd38f3f397f06aa6b478d5e13ae5bc23acf8b70f1",
       "quality_note": "4 列 × 3 行；新生成参考图，非原片截图或可直接导入的精灵图。"
     },
     "George": {
@@ -59,7 +59,7 @@
       ],
       "generated": true,
       "priority": 1,
-      "file": "generated/george-reference-sheet.png",
+      "file": "generated/george-reference-sheet-v3.png",
       "width": 1448,
       "height": 1086,
       "mode": "RGBA",
@@ -67,8 +67,8 @@
         0,
         255
       ],
-      "bytes": 757599,
-      "sha256": "821e835609c1a2404da1f93e76f84bab04a4f7d8b5748d9d80d730f6c6d55d74",
+      "bytes": 813585,
+      "sha256": "78e773e2c3e40e413200e39589f4508588f425764709f49128acdedbc51ffa85",
       "quality_note": "4 列 × 3 行；新生成参考图，非原片截图或可直接导入的精灵图。"
     },
     "Ringo": {
@@ -81,23 +81,117 @@
       ],
       "generated": true,
       "priority": 1,
-      "file": "generated/ringo-reference-sheet-v2.png",
-      "width": 1464,
-      "height": 1075,
+      "file": "generated/ringo-reference-sheet-v5.png",
+      "width": 1448,
+      "height": 1086,
       "mode": "RGBA",
       "alpha_extrema": [
         0,
         255
       ],
-      "bytes": 815079,
-      "sha256": "50845b551e64bfb95b2eaf1291ea04a91bb8e9abad22a6b48fcafbb40b1f2851",
+      "bytes": 850481,
+      "sha256": "ebe780e1f3d1d975f8ea872fa4b35cceee9d7702f26c10c5fa0eaf5124f6d10a",
       "quality_note": "4 列 × 3 行；新生成参考图，非原片截图或可直接导入的精灵图。"
+    }
+  },
+  "head_strips": {
+    "John": {
+      "id": "john-head-angles",
+      "title_zh": "John · 五角度头部参考",
+      "type_zh": "AI 生成补充",
+      "kind": "AI-generated head-turn reference grounded in timestamped original episode frames",
+      "characters": [
+        "John"
+      ],
+      "generated": true,
+      "priority": 1,
+      "file": "generated/john-head-angles-v1.png",
+      "width": 2135,
+      "height": 736,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 943878,
+      "sha256": "646419b8683adebb5136a39b6b66979b38dfd1639c997c4636b4c2f29177fba9",
+      "quality_note": "左90°、左45°、正面、右45°、右90°。45°呈现双眼，纯侧面呈现单眼；角度为生成目标，不是原片相机测量。",
+      "prompt_file": "angle-generation-prompts.json"
+    },
+    "Paul": {
+      "id": "paul-head-angles",
+      "title_zh": "Paul · 五角度头部参考",
+      "type_zh": "AI 生成补充",
+      "kind": "AI-generated head-turn reference grounded in timestamped original episode frames",
+      "characters": [
+        "Paul"
+      ],
+      "generated": true,
+      "priority": 1,
+      "file": "generated/paul-head-angles-v1.png",
+      "width": 2182,
+      "height": 721,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 1083394,
+      "sha256": "3c58b715079abc1fdf235ff8c5f6162bfd653aa2f8f33f36aa5b6f79f66934f4",
+      "quality_note": "左90°、左45°、正面、右45°、右90°。45°呈现双眼，纯侧面呈现单眼；角度为生成目标，不是原片相机测量。",
+      "prompt_file": "angle-generation-prompts.json"
+    },
+    "George": {
+      "id": "george-head-angles",
+      "title_zh": "George · 五角度头部参考",
+      "type_zh": "AI 生成补充",
+      "kind": "AI-generated head-turn reference grounded in timestamped original episode frames",
+      "characters": [
+        "George"
+      ],
+      "generated": true,
+      "priority": 1,
+      "file": "generated/george-head-angles-v1.png",
+      "width": 2168,
+      "height": 725,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 945290,
+      "sha256": "9c1ddb927cd573e4fdffdfce72beec273ab2a6831c6846487f384daa35869397",
+      "quality_note": "左90°、左45°、正面、右45°、右90°。45°呈现双眼，纯侧面呈现单眼；角度为生成目标，不是原片相机测量。",
+      "prompt_file": "angle-generation-prompts.json"
+    },
+    "Ringo": {
+      "id": "ringo-head-angles",
+      "title_zh": "Ringo · 五角度头部参考",
+      "type_zh": "AI 生成补充",
+      "kind": "AI-generated head-turn reference grounded in timestamped original episode frames",
+      "characters": [
+        "Ringo"
+      ],
+      "generated": true,
+      "priority": 1,
+      "file": "generated/ringo-head-angles-v1.png",
+      "width": 2059,
+      "height": 764,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 891841,
+      "sha256": "1bd6e5662fe24a48a333af8c65f394e2133365b574eb17ef443d399ca9cc4099",
+      "quality_note": "左90°、左45°、正面、右45°、右90°。45°呈现双眼，纯侧面呈现单眼；角度为生成目标，不是原片相机测量。",
+      "prompt_file": "angle-generation-prompts.json"
     }
   },
   "checks": {
     "download_hashes_retained": true,
     "all_generated_files_have_alpha_zero": true,
     "network_originals_unmodified": true,
-    "visual_review": "All original files reviewed in contact sheet; all final generated sheets visually reviewed separately. Inferred back views explicitly labeled. These are reference materials, not validated pet spritesheets."
+    "visual_review": "Original screenshots, five-angle strips and updated body sheets reviewed visually; source times retained. Inferred back views explicitly labeled. These are reference materials, not validated pet spritesheets."
   }
 }

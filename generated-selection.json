@@ -1,0 +1,18 @@
+{
+  "John": {
+    "body": "generated/john-reference-sheet-v3.png",
+    "head": "generated/john-head-angles-v1.png"
+  },
+  "Paul": {
+    "body": "generated/paul-reference-sheet-v3.png",
+    "head": "generated/paul-head-angles-v1.png"
+  },
+  "George": {
+    "body": "generated/george-reference-sheet-v3.png",
+    "head": "generated/george-head-angles-v1.png"
+  },
+  "Ringo": {
+    "body": "generated/ringo-reference-sheet-v5.png",
+    "head": "generated/ringo-head-angles-v1.png"
+  }
+}
