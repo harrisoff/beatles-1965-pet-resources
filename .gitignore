@@ -1,0 +1,19 @@
+# Downloaded HTML and discovery intermediates
+/source-pages/
+/source-discovery.json
+/model-page.html
+
+# Superseded generated drafts; final selections are in materials-manifest.json
+/generated/john-reference-sheet.png
+/generated/paul-reference-sheet.png
+/generated/ringo-reference-sheet.png
+
+# Local caches and credentials
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.zip
